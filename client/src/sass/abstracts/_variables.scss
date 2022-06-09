@@ -1,0 +1,38 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Rubik:400');
+
+
+
+@font-face {
+    font-family: 'NeueMetana-Bold';
+    src: local('NeauMetana-Bold') url('../../fonts/NeueMetana-Bold.otf') format('otf');
+  }
+  @font-face {
+    font-family: 'NeueMetana-Regular';
+    src: local('NeauMetana-Regular'), url('../../fonts/NeueMetana-Regular.ttf') format('truetype');
+    
+  }
+  
+  @font-face {
+    font-family: 'Voyage-Regular';
+    src: local('Voyage-Regular'), url('../../fonts/Voyage-Regular.woff') format('woff');
+  }
+
+
+//VARIABLES
+///typography
+
+$font-secondary: 'NeueMetana-Regular';
+$font-title: 'NeueMetana-Bold';
+$font-brand: 'Voyage-Regular';
+$font-body : 'Rubik';
+$text-color: 'Black';
+
+//colors
+$background-color:rgb(209, 190, 216);
+$green-details: rgb(198, 215, 45);
+
+
+
+
