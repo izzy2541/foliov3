@@ -179,8 +179,6 @@
   
 }
 
-
-
 .myfooter {
   height: 30px;
   color: white;
@@ -191,4 +189,16 @@
   justify-content: center;
   margin-top: 20vh;
 }
+
+
+@media (max-width: 899px) {
+  .studio-text{font-size: 70px;}
+}
+
+@media (max-width: 599px) {
+  .studio-text{font-size: 40px;}
+  div.cursors div {display: none}
+}
+
+
 

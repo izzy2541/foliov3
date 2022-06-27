@@ -1,5 +1,5 @@
 import {Fragment, React}  from 'react';
-import { Row, Col, Button, Container } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 
 import irk1 from '../../../images/irk1.jpeg'
 import irk2 from '../../../images/irk2.jpeg'
@@ -13,11 +13,11 @@ function Irk() {
         <Fragment>
             <Container>
                 <div className="image-box">
-                    <img className="details" src={irk6} alt="project image"/> 
-                    <img className="details" src={irk1} alt="project image"/>
-                    <img className="details" src={irk2} alt="project image"/>
-                    <img className="details" src={irk4} alt="project image"/>
-                    <img className="details" src={irk5} alt="project image"/>
+                    <img className="details" src={irk6} alt="my project"/> 
+                    <img className="details" src={irk1} alt="my project"/>
+                    <img className="details" src={irk2} alt="my project"/>
+                    <img className="details" src={irk4} alt="my project"/>
+                    <img className="details" src={irk5} alt="my project"/>
                  </div>
             </Container>
         </Fragment>
