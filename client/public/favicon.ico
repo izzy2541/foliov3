@@ -1,0 +1,2 @@
+import { BsEmojiSmile } from 'react-icons/bs';
+<BsEmojiSmile/>
