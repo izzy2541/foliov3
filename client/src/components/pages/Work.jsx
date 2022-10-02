@@ -39,7 +39,7 @@ function Work() {
                 <div className= "work-card">
                     <img className="work-image" src={podsite} variant="top" alt="my project"/>  
                         <h3>POD.COM</h3>
-                         <p>A website used to search and listen to Podcasts. This is a react project and  my first project using SASS!</p>
+                         <p>A website used to search and listen to Podcasts. This is a React project and  my first project using SASS!</p>
                   
                         <div className="card-buttons">
                             <a href="https://github.com/izzy2541/PODCASTSITEv2" target="_blank">
@@ -67,7 +67,7 @@ function Work() {
                   <div className= "work-card">
                     <img className="work-image" src={zodiac} variant="top" alt="my project"/>  
                         <h3>Astrology.Com</h3>
-                         <p>A website where a user can find out what zodiac they are based on their date of birth and also find out more informatio about said zodiac sign. This was my first Next.js project! I also used SASS.
+                         <p>A website where a user can find out what zodiac they are based on their date of birth and also find out more information about said zodiac sign. This was my first Next.js project! I also used SASS.
 
                          </p>
                   
