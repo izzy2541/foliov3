@@ -19,19 +19,6 @@ function Work() {
       <Fragment>
           <Container>
         <Row>
-            <Col sm={12} md={6}>   
-                <div className= "work-card">
-                    <img className="work-image" src={mybookshelf} alt="my project"/>  
-                        <h3>My Bookshelf</h3>
-                            <p>I built the My Bookshelf app using React and styled it using Bootstrap and styled components. Here users can login, and create a virtual display of the books they have been reading.</p>
-                                <div className="card-buttons">
-                                    <a href="https://github.com/izzy2541/mybooks" target="_blank">
-                                    <Button className="btn" variant="outline-dark" >Source Code</Button>
-                                    </a>
-                                
-                                </div>
-                </div>
-            </Col>
              <Col sm={12} md={6}>
                 <div className="work-card">
                     <img className="work-image" src={irk} alt="my project"/>  
@@ -94,6 +81,19 @@ function Work() {
                         </div>  
                 </div> 
                   </Col>
+                  <Col sm={12} md={6}>   
+                <div className= "work-card">
+                    <img className="work-image" src={mybookshelf} alt="my project"/>  
+                        <h3>My Bookshelf</h3>
+                            <p>I built the My Bookshelf app using React and styled it using Bootstrap and styled components. Here users can login, and create a virtual display of the books they have been reading.</p>
+                                <div className="card-buttons">
+                                    <a href="https://github.com/izzy2541/mybooks" target="_blank">
+                                    <Button className="btn" variant="outline-dark" >Source Code</Button>
+                                    </a>
+                                
+                                </div>
+                </div>
+            </Col>
                   <Col sm={12} md={6}>
                   <div className="work-card" >
                     <img className="work-image" variant="top" src={mysite} alt="my project"/>  
