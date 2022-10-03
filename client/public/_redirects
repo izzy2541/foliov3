@@ -2,3 +2,5 @@
   from = "/*"
   to = "./src/components/pages/NotFound.jsx" 
   status = 200
+
+  /*    /index.html   200 
