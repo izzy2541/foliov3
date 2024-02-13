@@ -11,6 +11,12 @@
   font-family: "Voyage-Regular";
   src: local("Voyage-Regular"), url("../../fonts/Voyage-Regular.woff") format("woff");
 }
+
+@font-face {
+  font-family: 'Berzulis-PIZIUS';
+  src: local('Berzulis-PIZIUS'), url('../../fonts/VBerzulis-PIZIUS.ttf') format('ttf');
+}
+
 * {
   border: 0;
   box-sizing: border-box;
@@ -64,7 +70,7 @@ a:hover {
 }
 
 h3 {
-  font-family: "Voyage-Regular";
+  font-family: "Berzulis-PIZIUS";
   padding-top: 25px;
   padding-bottom: 10px;
 }
