@@ -7,10 +7,10 @@
   font-family: "NeueMetana-Regular";
   src: local("NeauMetana-Regular"), url("../../fonts/NeueMetana-Regular.ttf") format("truetype");
 }
-/* @font-face {
+@font-face {
   font-family: "Voyage-Regular";
   src: local("Voyage-Regular"), url("../../fonts/Voyage-Regular.woff") format("woff");
-} */
+}
 
 @font-face {
   font-family: 'Berzulis-PIZIUS';
@@ -176,7 +176,7 @@ h3 {
 }
 
 .paragraph-text {
-  font-family: Helvetica;
+  font-family: "NeueMetana-Regular";
   font-size: 16px;
   text-align: center;
   padding: 15px;
