@@ -14,10 +14,10 @@
     
   }
   
-  @font-face {
-    font-family: 'Voyage-Regular';
-    src: local('Voyage-Regular'), url('../../fonts/Voyage-Regular.woff') format('woff');
-  }
+  // @font-face {
+  //   font-family: 'Voyage-Regular';
+  //   src: local('Voyage-Regular'), url('../../fonts/Voyage-Regular.woff') format('woff');
+  // }
 
   @font-face {
     font-family: 'Berzulis-PIZIUS';
@@ -28,7 +28,7 @@
 ///typography
 
 // $font-secondary: 'NeueMetana-Regular';
-$font-title: 'NeueMetana-Bold';
+$font-title: 'Helvetica, Arial, sans-serif';
 $font-brand: 'Berzulis-PIZIUS';
 $font-body : 'Rubik';
 $text-color: 'Black';

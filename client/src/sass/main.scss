@@ -111,7 +111,7 @@
  
   .work { 
       &-card {
-        font-family: $font-secondary;
+        font-family: Helvetica, Arial, sans-serif;
         font-size: 14px;
         line-height: 1.3;
         padding-bottom: 25px;;
@@ -158,7 +158,7 @@
   }
 
 .paragraph-text{
-  font-family: Helvetica;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   text-align: center;
   padding: 15px;

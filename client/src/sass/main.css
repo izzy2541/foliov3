@@ -7,10 +7,10 @@
   font-family: "NeueMetana-Regular";
   src: local("NeauMetana-Regular"), url("../../fonts/NeueMetana-Regular.ttf") format("truetype");
 }
-@font-face {
+/* @font-face {
   font-family: "Voyage-Regular";
   src: local("Voyage-Regular"), url("../../fonts/Voyage-Regular.woff") format("woff");
-}
+} */
 
 @font-face {
   font-family: 'Berzulis-PIZIUS';
@@ -123,7 +123,7 @@ h3 {
   animation: reveal 2.5s cubic-bezier(0.77, 0, 0.175, 1) 0.5s;
 } */
 .work-card {
-  font-family: "NeueMetana-Regular";
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.3;
   padding-bottom: 25px;
@@ -135,7 +135,7 @@ h3 {
 
 .studio-text {
   font-size: 90px;
-  font-family: "Voyage-Regular";
+  font-family: "Berzulis-PIZIUS";
   color: "Black";
   display: flex;
   text-align: center;
