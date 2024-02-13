@@ -28,7 +28,7 @@
 
   a {
     color: inherit;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Helvetica;
     font-size: inherit;
     text-decoration: none;
 
@@ -109,19 +109,6 @@
   }
 
  
-
-  /*.welcome-text{
-    font-size: 50px;
-    font-family: 'Rubik' ;
-    color: black;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    padding-top: 300px;
-    animation: reveal 2.5s cubic-bezier(0.77, 0, 0.175, 1) 0.5s;
-  } */
-
- 
   .work { 
       &-card {
         font-family: $font-secondary;
@@ -171,7 +158,7 @@
   }
 
 .paragraph-text{
-  font-family: $font-secondary;
+  font-family: Helvetica;
   font-size: 16px;
   text-align: center;
   padding: 15px;
