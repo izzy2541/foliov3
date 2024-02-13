@@ -1,10 +1,9 @@
 import {Fragment, React}  from 'react';
 import { Container } from 'react-bootstrap';
 
-import gh2 from '../../../images/green1.png'
-import gh3 from '../../../images/gh2.jpeg'
-import gh4 from '../../../images/green3.png'
-
+import gh2 from '../../../images/green1.jpg'
+import gh3 from '../../../images/green2.jpg'
+import gh4 from '../../../images/green3.jpg'
 function GreenHouse() {
 
     return (
