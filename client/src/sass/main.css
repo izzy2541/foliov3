@@ -14,7 +14,7 @@
 
 @font-face {
   font-family: 'Berzulis-PIZIUS';
-  src: local('Berzulis-PIZIUS'), url('../../fonts/VBerzulis-PIZIUS.ttf') format('ttf');
+  src: local('Berzulis-PIZIUS'), url('../../fonts/VBerzulis-PIZIUS.ttf') format('truetype');
 }
 
 * {
