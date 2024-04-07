@@ -22,7 +22,8 @@ function App() {
     <div className="App" element={<cursor/>}>
       <Navbar />
       <Routes>
-       <Route path="/" element={<Home/>} />
+       // <Route path="/" element={<Home/>} />
+        <Route path="/" element={<div><Home /><Work /></div>} />
        <Route path="/work" element={<Work/>} />
        <Route path="/work/irk" element={<Irk/>} />
        <Route path="/work/greenhouse" element={<GreenHouse/>} />
