@@ -21,8 +21,7 @@ function Home() {
 
       </div>
   </div>
-  </Fragment>
-    <Fragment>
+
           <Container>
         <Row>
              <Col sm={12} md={6}>
