@@ -1,12 +1,13 @@
 import { React, Fragment } from 'react';
 import { Link } from 'react-router-dom';
 import { Row, Col, Button, Container} from 'react-bootstrap';
-import mybookshelf from '../../images/bookshelfmockupp.png'
+import weather from '../../images/weather.png'
 import irk from '../../images/irk3.png'
 import gh1 from '../../images/gh1.png'
 import podsite from '../../images/podsite.png'
 import zodiac from '../../images/myzodiac.jpg'
 import mysite from '../../images/studioisabelhome.jpg'
+
 
 function Home() {
 
@@ -87,9 +88,9 @@ function Home() {
                   </Col>
                   <Col sm={12} md={6}>   
                 <div className= "work-card">
-                    <img className="work-image" src={mybookshelf} alt="my project"/>  
-                        <h3>My Bookshelf</h3>
-                            <p>I built the My Bookshelf app using React and styled it using Bootstrap and styled components. Here users can login, and create a virtual display of the books they have been reading.</p>
+                    <img className="work-image" src={weather} alt="my project"/>  
+                        <h3>The weather</h3>
+                            <p>This is another React.js project. I built it recently in 2024, as I have always been interested in learning Tailwind.css. You may use it to look uo the weather in your city!</p>
                                 <div className="card-buttons">
                                     <a href="https://github.com/izzy2541/mybooks" target="_blank">
                                     <Button className="btn" variant="outline-dark" >Source Code</Button>
@@ -102,7 +103,7 @@ function Home() {
                   <div className="work-card" >
                     <img className="work-image" variant="top" src={mysite} alt="my project"/>  
                         <h3>Studio Isabel</h3>
-                         <p> I built my folio website from scratch using React, SASS and Bootstrap. Have a look around! I am really proud of this site.</p>    
+                         <p> I built my folio website from scratch using React, SASS and Bootstrap. Originally built in 2022, I have been working on a couple of updates this year and aim to add a few more projects soon, so stay tuned. </p>    
 
                         <div className="card-buttons">
                         <a href="https://github.com/izzy2541/foliov3" target="_blank">
