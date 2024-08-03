@@ -1,7 +1,7 @@
 import {Fragment, React}  from 'react';
 import { Link }from 'react-router-dom';
 import { Row, Col, Button, Container} from 'react-bootstrap';
-import weather from '../../images/weather.png'
+import weather from '../../images/weather.jpg'
 import irk from '../../images/irk3.png'
 import gh1 from '../../images/gh1.png'
 import podsite from '../../images/podsite.png'
@@ -19,7 +19,7 @@ function Work() {
                     <img className="work-image" src={irk} alt="my project"/>  
                         <h3>IRK Magazine</h3>
                          <p>
-                            Magazine cover and editorial design/concept by me. The brief here was to create an "unconventional travel" issue, so for the cover I cut up and 
+                            Magazine cover and editorial design/concept by me while at Shillington Design College. The brief here was to create an "unconventional travel" issue, so for the cover I cut up and 
                             scanned in images I had taken in places like Poland and Slovenia. To create this I used Indesign, Illustrator and Photoshop</p>                  
                          <div className="card-buttons">
                              <Link to="/work/irk">
