@@ -1,31 +1,5 @@
 
 
-// @import url('https://fonts.googleapis.com/css?family=Rubik:400');
-
-
-// @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins&display=swap');
-
-
-// @font-face {
-//     font-family: 'NeueMetana-Bold';
-//     src: local('NeauMetana-Bold') url('../../fonts/NeueMetana-Bold.otf') format('otf');
-//   }
-//   @font-face {
-//     font-family: 'NeueMetana-Regular';
-//     src: local('NeauMetana-Regular'), url('../../fonts/NeueMetana-Regular.ttf') format('truetype');
-    
-//   }
-  
-  // @font-face {
-  //   font-family: 'Voyage-Regular';
-  //   src: local('Voyage-Regular'), url('../../fonts/Voyage-Regular.woff') format('woff');
-  // }
-
-  // @font-face {
-  //   font-family: 'Berzulis-PIZIUS';
-  //   src: local('Berzulis-PIZIUS'), url('../../fonts/Berzulis-PIZIUS.ttf') format('truetype');
-  // }
-
   @font-face {
     font-family: 'PPMonumentExtended-RegularItalic';
     src: local('PPMonumentExtended-Regular'), url('../../fonts/PPMonumentExtended-Regular.otf') format('otf');
@@ -40,10 +14,10 @@
 ///typography
 
 $font-secondary: 'PPMonumentExtended-RegularItalic', sans-serif;
-$font-title: 'NeueMetana-Bold';
+// $font-title: 'NeueMetana-Bold';
 $font-brand: 'Berzulis-BARSTUKAI-Regular';
-$font-body : 'Poppins', sans-serif;
-$text-color: 'Black';
+$font-body : 'PPMonumentExtended-RegularItalic', sans-serif;
+// $text-color: 'Black';
 
 //colors
 $background-color:rgb(209, 190, 216);
