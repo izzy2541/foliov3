@@ -6,7 +6,7 @@ import gh1 from '../../images/gh1.png'
 import podsite from '../../images/podsite.png'
 import zodiac from '../../images/myzodiac.jpg'
 import mysite from '../../images/studioisabelhome.jpg'
-import abc from '../../images/abc.png'
+import abcImage from '../../images/abc.png'
 
 
 function Work() {
@@ -80,13 +80,16 @@ function Work() {
                     </Col>
                     <Col sm={12} md={6}>   
                   <div className= "work-card">
-                      <img className="work-image" src={abc} alt="my project"/>  
+                      <img className="work-image" src={abcImage} alt="my project"/>  
                           <h3>The weather</h3>
                               <p>This is another React.js project. I built it recently in 2024, as I have always been interested in learning Tailwind.css. You may use it to look uo the weather in your city!</p>
                                   <div className="card-buttons">
-                                      <a href="https://github.com/izzy2541/mybooks" target="_blank">
+                                      <a href="https://github.com/izzy2541/react-weather-24" target="_blank">
                                       <Button className="btn" variant="outline-dark" >Source Code</Button>
                                       </a>
+                                      <a href="https://react-weather-24-git-main-izzy2541s-projects.vercel.app/" target="_blank">
+                                  <Button  className="btn"  variant="outline-dark"> Live Site</Button>  
+                              </a> 
                                   
                                   </div>
                   </div>

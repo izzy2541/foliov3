@@ -1,7 +1,7 @@
 import { React, Fragment } from 'react';
 import { Link } from 'react-router-dom';
 import { Row, Col, Button, Container} from 'react-bootstrap';
-import abc from '../../images/abc.jpg'
+import abcImage from '../../images/abc.jpg'
 import irk from '../../images/irk3.png'
 import gh1 from '../../images/gh1.png'
 import podsite from '../../images/podsite.png'
@@ -88,13 +88,16 @@ function Home() {
                   </Col>
                   <Col sm={12} md={6}>   
                 <div className= "work-card">
-                    <img className="work-image" src={abc} alt="my project"/>  
+                    <img className="work-image" src={abcImage} alt="my project"/>  
                         <h3>The weather</h3>
                             <p>This is another React.js project. I built it recently in 2024, as I have always been interested in learning Tailwind.css. You may use it to look uo the weather in your city!</p>
                                 <div className="card-buttons">
-                                    <a href="https://github.com/izzy2541/mybooks" target="_blank">
+                                    <a href="https://github.com/izzy2541/react-weather-24" target="_blank">
                                     <Button className="btn" variant="outline-dark" >Source Code</Button>
                                     </a>
+                                    <a href="https://react-weather-24-git-main-izzy2541s-projects.vercel.app/" target="_blank">
+                                  <Button  className="btn"  variant="outline-dark"> Live Site</Button>  
+                              </a> 
                                 
                                 </div>
                 </div>
