@@ -16,9 +16,8 @@ function Home() {
         <div className="studio-text">
             Isabels<br></br>Folio
         </div>
-        <div className="paragraph-text" colSpan="5"> Hi! My names Isabel and I'm a Front-End Web Developer<br></br> and Graphic Designer based in Melbourne Australia. <br></br>
-      Welcome to my portfolio, please <Link to="work"><u>have a look</u></Link> and contact me for further enquires.
-
+        <div className="paragraph-text" colSpan="5"> Hi! My names Isabel/Izzy and I'm a Front-End Web Developer<br></br> and Graphic Designer based in Melbourne Australia. <br></br>
+      Welcome to my portfolio, please take a look below for examples of some of my student and freelance work. You can also check out my <a href="https://codepen.io/isabel-donnelly/" target='_blank'>codepen</a> for examples of the type of work I do in my current role as an E-learning Producer. Feel free to <Link to="contact"><u>contact me</u></Link> if you have any further enquiries.
       </div>
   </div>
 
@@ -29,8 +28,8 @@ function Home() {
                     <img className="work-image" src={irk} alt="my project"/>  
                         <h3>IRK Magazine</h3>
                          <p>
-                            Magazine cover and editorial design/concept by me. The brief here was to create an "unconventional travel" issue, so for the cover I cut up and 
-                            scanned in images I had taken in places like Poland and Slovenia. To create this I used Indesign, Illustrator and Photoshop</p>                  
+                            Magazine cover and editorial design/concept by me. I completed this project when I was a student at Shillington College. The brief was to create an "unconventional travel" issue, so for the cover I cut up and 
+                            scanned in images I had taken in places like Poland and Slovenia. To create this I used Indesign, Illustrator and Photoshop.</p>                  
                          <div className="card-buttons">
                              <Link to="/work/irk">
                                 <Button variant="outline-dark">View Project</Button>
