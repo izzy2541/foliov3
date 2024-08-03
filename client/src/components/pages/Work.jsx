@@ -6,7 +6,7 @@ import gh1 from '../../images/gh1.png'
 import podsite from '../../images/podsite.png'
 import zodiac from '../../images/myzodiac.jpg'
 import mysite from '../../images/studioisabelhome.jpg'
-import weather from '../../images/weather.jpg'
+import abc from '../../images/abc.png'
 
 
 function Work() {
