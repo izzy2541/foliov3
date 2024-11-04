@@ -19,7 +19,7 @@
 
   @font-face {
     font-family: 'Louise-Regular';
-    src: local('Louise-Regular'), url('../../fonts/Berzulis-Louise-Regular.otf') format('otf');
+    src: local('Louise-Regular'), url('../../fonts/Louise-Regular.otf') format('otf');
   }
 
 * {
