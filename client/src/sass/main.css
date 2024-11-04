@@ -17,6 +17,11 @@
   src: local('Berzulis-PIZIUS'), url('../../fonts/VBerzulis-PIZIUS.ttf') format('truetype');
 }
 
+  @font-face {
+    font-family: 'Louise-Regular';
+    src: local('Louise-Regular'), url('../../fonts/Berzulis-Louise-Regular.otf') format('otf');
+  }
+
 * {
   border: 0;
   box-sizing: border-box;
