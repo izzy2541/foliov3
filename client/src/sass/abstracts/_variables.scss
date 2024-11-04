@@ -6,8 +6,8 @@
   }
 
   @font-face {
-    font-family: 'Berzulis-BARSTUKAI-Regular';
-    src: local('Berzulis-BARSTUKAI-Regular'), url('../../fonts/Berzulis-BARSTUKAI-Regular.ttf') format('truetype');
+    font-family: 'Louise-Regular';
+    src: local('Louise-Regular'), url('../../fonts/Berzulis-Louise-Regular.otf') format('otf');
   }
 
 //VARIABLES
@@ -15,7 +15,7 @@
 
 $font-secondary: 'PPMonumentExtended-RegularItalic', sans-serif;
 // $font-title: 'NeueMetana-Bold';
-$font-brand: 'Berzulis-BARSTUKAI-Regular';
+$font-brand: 'Louise-Regular';
 $font-body : 'PPMonumentExtended-RegularItalic', sans-serif;
 
 //colors
