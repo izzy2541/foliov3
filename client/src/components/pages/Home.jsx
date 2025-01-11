@@ -90,7 +90,7 @@ function Home() {
                 <div className= "work-card">
                     <img className="work-image" src={weather} alt="my project"/>  
                         <h3>The weather</h3>
-                            <p>This is another React.js project. I built it recently in 2024, as I have always been interested in learning Tailwind.css. You may use it to look uo the weather in your city!</p>
+                            <p>This is another React.js project. I built it recently in 2024, as I have always been interested in learning Tailwind.css. You may use it to look up the weather in your city!</p>
                                 <div className="card-buttons">
                                     <a href="https://github.com/izzy2541/react-weather-24" target="_blank">
                                     <Button className="btn" variant="outline-dark" >Source Code</Button>
