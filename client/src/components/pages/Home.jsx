@@ -15,7 +15,7 @@ function Home() {
     <Fragment>
       <div className="HomePage">
         <div className="paragraph-text" colSpan="5"> Hi, I'm Isabel &mdash; a Front-End Web Developer & Graphic Designer based in Melbourne Australia.
-      Welcome to my portfolio, please take a look below for examples of some of my student and freelance work. You can also check out my <a href="https://codepen.io/isabel-donnelly/" target='_blank'>codepen</a> for examples of the type of work I do in my current role as an E-learning Producer. Feel free to <Link to="contact"><u>contact me</u></Link> if you have any further enquiries.
+      Welcome to my portfolio, please take a look below for examples of some of my student and freelance work and please feel free to <Link to="contact"><u>contact me</u></Link> if you have any further enquiries.
       </div>
   </div>
 
